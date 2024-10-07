@@ -4,19 +4,22 @@
       "id": 1,
       "name": "John",
       "lastName": "Doe",
-      "address": "123 Main St"
+      "address": "123 Main St",
+      "photoUrl": "/avatar?u=1"
     },
     {
       "id": 2,
       "name": "Jane",
       "lastName": "Smith",
-      "address": "456 Oak St"
+      "address": "456 Oak St",
+      "photoUrl": "/avatar?u=2"
     },
     {
       "id": 3,
       "name": "Alice",
       "lastName": "Johnson",
-      "address": "789 Pine St"
+      "address": "789 Pine St",
+      "photoUrl": "/avatar?u=3"
     }
   ],
   "orders": [
