@@ -2,126 +2,30 @@
   "customers": [
     {
       "id": 1,
-      "name": "Customer 1",
-      "lastName": "Lastname 1",
-      "address": "1 Main St",
-      "photoUrl": "/avatar?u=1"
+      "name": "John",
+      "lastName": "Doe",
+      "address": "123 Main St"
     },
     {
       "id": 2,
-      "name": "Customer 2",
-      "lastName": "Lastname 2",
-      "address": "2 Main St",
-      "photoUrl": "/avatar?u=2"
+      "name": "Jane",
+      "lastName": "Smith",
+      "address": "456 Oak St"
     },
     {
       "id": 3,
-      "name": "Customer 3",
-      "lastName": "Lastname 3",
-      "address": "3 Main St",
-      "photoUrl": "/avatar?u=3"
-    },
-    {
-      "id": 4,
-      "name": "Customer 4",
-      "lastName": "Lastname 4",
-      "address": "4 Main St",
-      "photoUrl": "/avatar?u=4"
-    },
-    {
-      "id": 5,
-      "name": "Customer 5",
-      "lastName": "Lastname 5",
-      "address": "5 Main St",
-      "photoUrl": "/avatar?u=5"
+      "name": "Alice",
+      "lastName": "Johnson",
+      "address": "789 Pine St"
     }
   ],
   "orders": [
     {
       "customer": {
         "id": 3,
-        "name": "Customer 3",
-        "lastName": "Lastname 3",
-        "address": "3 Main St",
-        "photoUrl": "/avatar?u=3"
-      },
-      "orderLines": [
-        {
-          "product": {
-            "id": 2,
-            "name": "Product 2",
-            "price": 50
-          },
-          "count": 3,
-          "price": 50
-        }
-      ],
-      "creationDate": "2023-10-16T00:00:00",
-      "lastEditDate": "2023-10-18T00:00:00",
-      "status": "Completed"
-    },
-    {
-      "customer": {
-        "id": 5,
-        "name": "Customer 5",
-        "lastName": "Lastname 5",
-        "address": "5 Main St",
-        "photoUrl": "/avatar?u=5"
-      },
-      "orderLines": [
-        {
-          "product": {
-            "id": 1,
-            "name": "Product 1",
-            "price": 100
-          },
-          "count": 3,
-          "price": 100
-        }
-      ],
-      "creationDate": "2023-10-11T00:00:00",
-      "lastEditDate": "2023-10-13T00:00:00",
-      "status": "Completed"
-    },
-    {
-      "customer": {
-        "id": 1,
-        "name": "Customer 1",
-        "lastName": "Lastname 1",
-        "address": "1 Main St",
-        "photoUrl": "/avatar?u=1"
-      },
-      "orderLines": [
-        {
-          "product": {
-            "id": 5,
-            "name": "Product 5",
-            "price": 250
-          },
-          "count": 1,
-          "price": 250
-        },
-        {
-          "product": {
-            "id": 1,
-            "name": "Product 1",
-            "price": 100
-          },
-          "count": 3,
-          "price": 100
-        }
-      ],
-      "creationDate": "2023-10-11T00:00:00",
-      "lastEditDate": "2023-10-13T00:00:00",
-      "status": "Created"
-    },
-    {
-      "customer": {
-        "id": 2,
-        "name": "Customer 2",
-        "lastName": "Lastname 2",
-        "address": "2 Main St",
-        "photoUrl": "/avatar?u=2"
+        "name": "Alice",
+        "lastName": "Johnson",
+        "address": "789 Pine St"
       },
       "orderLines": [
         {
@@ -135,483 +39,24 @@
         },
         {
           "product": {
-            "id": 2,
-            "name": "Product 2",
-            "price": 50
-          },
-          "count": 3,
-          "price": 50
-        }
-      ],
-      "creationDate": "2023-10-12T00:00:00",
-      "lastEditDate": "2023-10-14T00:00:00",
-      "status": "Cancelled"
-    },
-    {
-      "customer": {
-        "id": 2,
-        "name": "Customer 2",
-        "lastName": "Lastname 2",
-        "address": "2 Main St",
-        "photoUrl": "/avatar?u=2"
-      },
-      "orderLines": [
-        {
-          "product": {
             "id": 1,
             "name": "Product 1",
             "price": 100
           },
           "count": 3,
           "price": 100
-        }
-      ],
-      "creationDate": "2023-10-07T00:00:00",
-      "lastEditDate": "2023-10-07T00:00:00",
-      "status": "InProgress"
-    },
-    {
-      "customer": {
-        "id": 5,
-        "name": "Customer 5",
-        "lastName": "Lastname 5",
-        "address": "5 Main St",
-        "photoUrl": "/avatar?u=5"
-      },
-      "orderLines": [
-        {
-          "product": {
-            "id": 1,
-            "name": "Product 1",
-            "price": 100
-          },
-          "count": 3,
-          "price": 100
-        },
-        {
-          "product": {
-            "id": 1,
-            "name": "Product 1",
-            "price": 100
-          },
-          "count": 1,
-          "price": 100
-        }
-      ],
-      "creationDate": "2023-10-08T00:00:00",
-      "lastEditDate": "2023-10-09T00:00:00",
-      "status": "Created"
-    },
-    {
-      "customer": {
-        "id": 5,
-        "name": "Customer 5",
-        "lastName": "Lastname 5",
-        "address": "5 Main St",
-        "photoUrl": "/avatar?u=5"
-      },
-      "orderLines": [
-        {
-          "product": {
-            "id": 3,
-            "name": "Product 3",
-            "price": 150
-          },
-          "count": 2,
-          "price": 150
-        },
-        {
-          "product": {
-            "id": 2,
-            "name": "Product 2",
-            "price": 50
-          },
-          "count": 2,
-          "price": 50
-        }
-      ],
-      "creationDate": "2023-10-13T00:00:00",
-      "lastEditDate": "2023-10-15T00:00:00",
-      "status": "InProgress"
-    },
-    {
-      "customer": {
-        "id": 5,
-        "name": "Customer 5",
-        "lastName": "Lastname 5",
-        "address": "5 Main St",
-        "photoUrl": "/avatar?u=5"
-      },
-      "orderLines": [
-        {
-          "product": {
-            "id": 5,
-            "name": "Product 5",
-            "price": 250
-          },
-          "count": 1,
-          "price": 250
-        }
-      ],
-      "creationDate": "2023-10-15T00:00:00",
-      "lastEditDate": "2023-10-15T00:00:00",
-      "status": "Created"
-    },
-    {
-      "customer": {
-        "id": 3,
-        "name": "Customer 3",
-        "lastName": "Lastname 3",
-        "address": "3 Main St",
-        "photoUrl": "/avatar?u=3"
-      },
-      "orderLines": [
-        {
-          "product": {
-            "id": 5,
-            "name": "Product 5",
-            "price": 250
-          },
-          "count": 3,
-          "price": 250
-        }
-      ],
-      "creationDate": "2023-10-06T00:00:00",
-      "lastEditDate": "2023-10-08T00:00:00",
-      "status": "InProgress"
-    },
-    {
-      "customer": {
-        "id": 4,
-        "name": "Customer 4",
-        "lastName": "Lastname 4",
-        "address": "4 Main St",
-        "photoUrl": "/avatar?u=4"
-      },
-      "orderLines": [
-        {
-          "product": {
-            "id": 1,
-            "name": "Product 1",
-            "price": 100
-          },
-          "count": 1,
-          "price": 100
-        },
-        {
-          "product": {
-            "id": 5,
-            "name": "Product 5",
-            "price": 250
-          },
-          "count": 2,
-          "price": 250
-        }
-      ],
-      "creationDate": "2023-10-01T00:00:00",
-      "lastEditDate": "2023-10-02T00:00:00",
-      "status": "Completed"
-    },
-    {
-      "customer": {
-        "id": 2,
-        "name": "Customer 2",
-        "lastName": "Lastname 2",
-        "address": "2 Main St",
-        "photoUrl": "/avatar?u=2"
-      },
-      "orderLines": [
-        {
-          "product": {
-            "id": 3,
-            "name": "Product 3",
-            "price": 150
-          },
-          "count": 2,
-          "price": 150
-        },
-        {
-          "product": {
-            "id": 2,
-            "name": "Product 2",
-            "price": 50
-          },
-          "count": 2,
-          "price": 50
-        }
-      ],
-      "creationDate": "2023-10-11T00:00:00",
-      "lastEditDate": "2023-10-12T00:00:00",
-      "status": "Created"
-    },
-    {
-      "customer": {
-        "id": 4,
-        "name": "Customer 4",
-        "lastName": "Lastname 4",
-        "address": "4 Main St",
-        "photoUrl": "/avatar?u=4"
-      },
-      "orderLines": [
-        {
-          "product": {
-            "id": 5,
-            "name": "Product 5",
-            "price": 250
-          },
-          "count": 1,
-          "price": 250
-        },
-        {
-          "product": {
-            "id": 4,
-            "name": "Product 4",
-            "price": 200
-          },
-          "count": 3,
-          "price": 200
-        }
-      ],
-      "creationDate": "2023-10-06T00:00:00",
-      "lastEditDate": "2023-10-08T00:00:00",
-      "status": "Completed"
-    },
-    {
-      "customer": {
-        "id": 5,
-        "name": "Customer 5",
-        "lastName": "Lastname 5",
-        "address": "5 Main St",
-        "photoUrl": "/avatar?u=5"
-      },
-      "orderLines": [
-        {
-          "product": {
-            "id": 3,
-            "name": "Product 3",
-            "price": 150
-          },
-          "count": 3,
-          "price": 150
-        },
-        {
-          "product": {
-            "id": 3,
-            "name": "Product 3",
-            "price": 150
-          },
-          "count": 3,
-          "price": 150
-        }
-      ],
-      "creationDate": "2023-10-11T00:00:00",
-      "lastEditDate": "2023-10-13T00:00:00",
-      "status": "Cancelled"
-    },
-    {
-      "customer": {
-        "id": 4,
-        "name": "Customer 4",
-        "lastName": "Lastname 4",
-        "address": "4 Main St",
-        "photoUrl": "/avatar?u=4"
-      },
-      "orderLines": [
-        {
-          "product": {
-            "id": 4,
-            "name": "Product 4",
-            "price": 200
-          },
-          "count": 1,
-          "price": 200
-        },
-        {
-          "product": {
-            "id": 2,
-            "name": "Product 2",
-            "price": 50
-          },
-          "count": 1,
-          "price": 50
-        }
-      ],
-      "creationDate": "2023-10-01T00:00:00",
-      "lastEditDate": "2023-10-02T00:00:00",
-      "status": "InProgress"
-    },
-    {
-      "customer": {
-        "id": 2,
-        "name": "Customer 2",
-        "lastName": "Lastname 2",
-        "address": "2 Main St",
-        "photoUrl": "/avatar?u=2"
-      },
-      "orderLines": [
-        {
-          "product": {
-            "id": 4,
-            "name": "Product 4",
-            "price": 200
-          },
-          "count": 1,
-          "price": 200
-        }
-      ],
-      "creationDate": "2023-10-01T00:00:00",
-      "lastEditDate": "2023-10-01T00:00:00",
-      "status": "Cancelled"
-    },
-    {
-      "customer": {
-        "id": 1,
-        "name": "Customer 1",
-        "lastName": "Lastname 1",
-        "address": "1 Main St",
-        "photoUrl": "/avatar?u=1"
-      },
-      "orderLines": [
-        {
-          "product": {
-            "id": 1,
-            "name": "Product 1",
-            "price": 100
-          },
-          "count": 1,
-          "price": 100
-        },
-        {
-          "product": {
-            "id": 2,
-            "name": "Product 2",
-            "price": 50
-          },
-          "count": 1,
-          "price": 50
-        }
-      ],
-      "creationDate": "2023-10-03T00:00:00",
-      "lastEditDate": "2023-10-04T00:00:00",
-      "status": "InProgress"
-    },
-    {
-      "customer": {
-        "id": 3,
-        "name": "Customer 3",
-        "lastName": "Lastname 3",
-        "address": "3 Main St",
-        "photoUrl": "/avatar?u=3"
-      },
-      "orderLines": [
-        {
-          "product": {
-            "id": 1,
-            "name": "Product 1",
-            "price": 100
-          },
-          "count": 3,
-          "price": 100
-        }
-      ],
-      "creationDate": "2023-10-03T00:00:00",
-      "lastEditDate": "2023-10-05T00:00:00",
-      "status": "Completed"
-    },
-    {
-      "customer": {
-        "id": 5,
-        "name": "Customer 5",
-        "lastName": "Lastname 5",
-        "address": "5 Main St",
-        "photoUrl": "/avatar?u=5"
-      },
-      "orderLines": [
-        {
-          "product": {
-            "id": 4,
-            "name": "Product 4",
-            "price": 200
-          },
-          "count": 3,
-          "price": 200
-        }
-      ],
-      "creationDate": "2023-10-05T00:00:00",
-      "lastEditDate": "2023-10-07T00:00:00",
-      "status": "Created"
-    },
-    {
-      "customer": {
-        "id": 5,
-        "name": "Customer 5",
-        "lastName": "Lastname 5",
-        "address": "5 Main St",
-        "photoUrl": "/avatar?u=5"
-      },
-      "orderLines": [
-        {
-          "product": {
-            "id": 4,
-            "name": "Product 4",
-            "price": 200
-          },
-          "count": 2,
-          "price": 200
-        },
-        {
-          "product": {
-            "id": 4,
-            "name": "Product 4",
-            "price": 200
-          },
-          "count": 2,
-          "price": 200
-        }
-      ],
-      "creationDate": "2023-10-16T00:00:00",
-      "lastEditDate": "2023-10-17T00:00:00",
-      "status": "Cancelled"
-    },
-    {
-      "customer": {
-        "id": 2,
-        "name": "Customer 2",
-        "lastName": "Lastname 2",
-        "address": "2 Main St",
-        "photoUrl": "/avatar?u=2"
-      },
-      "orderLines": [
-        {
-          "product": {
-            "id": 2,
-            "name": "Product 2",
-            "price": 50
-          },
-          "count": 2,
-          "price": 50
-        },
-        {
-          "product": {
-            "id": 4,
-            "name": "Product 4",
-            "price": 200
-          },
-          "count": 2,
-          "price": 200
         }
       ],
       "creationDate": "2023-10-14T00:00:00",
-      "lastEditDate": "2023-10-14T00:00:00",
-      "status": "Cancelled"
+      "lastEditDate": "2023-10-15T00:00:00",
+      "status": "InProgress"
     },
     {
       "customer": {
-        "id": 1,
-        "name": "Customer 1",
-        "lastName": "Lastname 1",
-        "address": "1 Main St",
-        "photoUrl": "/avatar?u=1"
+        "id": 3,
+        "name": "Alice",
+        "lastName": "Johnson",
+        "address": "789 Pine St"
       },
       "orderLines": [
         {
@@ -620,67 +65,29 @@
             "name": "Product 3",
             "price": 150
           },
-          "count": 2,
+          "count": 1,
+          "price": 150
+        },
+        {
+          "product": {
+            "id": 3,
+            "name": "Product 3",
+            "price": 150
+          },
+          "count": 3,
           "price": 150
         }
       ],
-      "creationDate": "2023-10-11T00:00:00",
-      "lastEditDate": "2023-10-11T00:00:00",
-      "status": "Cancelled"
-    },
-    {
-      "customer": {
-        "id": 5,
-        "name": "Customer 5",
-        "lastName": "Lastname 5",
-        "address": "5 Main St",
-        "photoUrl": "/avatar?u=5"
-      },
-      "orderLines": [
-        {
-          "product": {
-            "id": 2,
-            "name": "Product 2",
-            "price": 50
-          },
-          "count": 3,
-          "price": 50
-        }
-      ],
-      "creationDate": "2023-10-08T00:00:00",
+      "creationDate": "2023-10-09T00:00:00",
       "lastEditDate": "2023-10-10T00:00:00",
       "status": "Completed"
     },
     {
       "customer": {
         "id": 1,
-        "name": "Customer 1",
-        "lastName": "Lastname 1",
-        "address": "1 Main St",
-        "photoUrl": "/avatar?u=1"
-      },
-      "orderLines": [
-        {
-          "product": {
-            "id": 3,
-            "name": "Product 3",
-            "price": 150
-          },
-          "count": 3,
-          "price": 150
-        }
-      ],
-      "creationDate": "2023-10-15T00:00:00",
-      "lastEditDate": "2023-10-16T00:00:00",
-      "status": "Created"
-    },
-    {
-      "customer": {
-        "id": 3,
-        "name": "Customer 3",
-        "lastName": "Lastname 3",
-        "address": "3 Main St",
-        "photoUrl": "/avatar?u=3"
+        "name": "John",
+        "lastName": "Doe",
+        "address": "123 Main St"
       },
       "orderLines": [
         {
@@ -689,72 +96,8 @@
             "name": "Product 1",
             "price": 100
           },
-          "count": 2,
+          "count": 3,
           "price": 100
-        },
-        {
-          "product": {
-            "id": 5,
-            "name": "Product 5",
-            "price": 250
-          },
-          "count": 2,
-          "price": 250
-        }
-      ],
-      "creationDate": "2023-10-13T00:00:00",
-      "lastEditDate": "2023-10-13T00:00:00",
-      "status": "Cancelled"
-    },
-    {
-      "customer": {
-        "id": 2,
-        "name": "Customer 2",
-        "lastName": "Lastname 2",
-        "address": "2 Main St",
-        "photoUrl": "/avatar?u=2"
-      },
-      "orderLines": [
-        {
-          "product": {
-            "id": 5,
-            "name": "Product 5",
-            "price": 250
-          },
-          "count": 3,
-          "price": 250
-        },
-        {
-          "product": {
-            "id": 3,
-            "name": "Product 3",
-            "price": 150
-          },
-          "count": 2,
-          "price": 150
-        }
-      ],
-      "creationDate": "2023-10-16T00:00:00",
-      "lastEditDate": "2023-10-18T00:00:00",
-      "status": "Cancelled"
-    },
-    {
-      "customer": {
-        "id": 4,
-        "name": "Customer 4",
-        "lastName": "Lastname 4",
-        "address": "4 Main St",
-        "photoUrl": "/avatar?u=4"
-      },
-      "orderLines": [
-        {
-          "product": {
-            "id": 5,
-            "name": "Product 5",
-            "price": 250
-          },
-          "count": 3,
-          "price": 250
         },
         {
           "product": {
@@ -762,7 +105,7 @@
             "name": "Product 2",
             "price": 50
           },
-          "count": 1,
+          "count": 3,
           "price": 50
         }
       ],
@@ -772,11 +115,10 @@
     },
     {
       "customer": {
-        "id": 5,
-        "name": "Customer 5",
-        "lastName": "Lastname 5",
-        "address": "5 Main St",
-        "photoUrl": "/avatar?u=5"
+        "id": 1,
+        "name": "John",
+        "lastName": "Doe",
+        "address": "123 Main St"
       },
       "orderLines": [
         {
@@ -785,31 +127,8 @@
             "name": "Product 1",
             "price": 100
           },
-          "count": 3,
-          "price": 100
-        }
-      ],
-      "creationDate": "2023-10-12T00:00:00",
-      "lastEditDate": "2023-10-14T00:00:00",
-      "status": "InProgress"
-    },
-    {
-      "customer": {
-        "id": 1,
-        "name": "Customer 1",
-        "lastName": "Lastname 1",
-        "address": "1 Main St",
-        "photoUrl": "/avatar?u=1"
-      },
-      "orderLines": [
-        {
-          "product": {
-            "id": 4,
-            "name": "Product 4",
-            "price": 200
-          },
           "count": 2,
-          "price": 200
+          "price": 100
         },
         {
           "product": {
@@ -817,44 +136,20 @@
             "name": "Product 5",
             "price": 250
           },
-          "count": 2,
+          "count": 3,
           "price": 250
         }
       ],
-      "creationDate": "2023-10-15T00:00:00",
-      "lastEditDate": "2023-10-15T00:00:00",
-      "status": "InProgress"
-    },
-    {
-      "customer": {
-        "id": 1,
-        "name": "Customer 1",
-        "lastName": "Lastname 1",
-        "address": "1 Main St",
-        "photoUrl": "/avatar?u=1"
-      },
-      "orderLines": [
-        {
-          "product": {
-            "id": 4,
-            "name": "Product 4",
-            "price": 200
-          },
-          "count": 3,
-          "price": 200
-        }
-      ],
-      "creationDate": "2023-10-01T00:00:00",
-      "lastEditDate": "2023-10-02T00:00:00",
-      "status": "Completed"
+      "creationDate": "2023-10-06T00:00:00",
+      "lastEditDate": "2023-10-07T00:00:00",
+      "status": "Cancelled"
     },
     {
       "customer": {
         "id": 3,
-        "name": "Customer 3",
-        "lastName": "Lastname 3",
-        "address": "3 Main St",
-        "photoUrl": "/avatar?u=3"
+        "name": "Alice",
+        "lastName": "Johnson",
+        "address": "789 Pine St"
       },
       "orderLines": [
         {
@@ -865,6 +160,28 @@
           },
           "count": 1,
           "price": 250
+        }
+      ],
+      "creationDate": "2023-10-08T00:00:00",
+      "lastEditDate": "2023-10-10T00:00:00",
+      "status": "Created"
+    },
+    {
+      "customer": {
+        "id": 1,
+        "name": "John",
+        "lastName": "Doe",
+        "address": "123 Main St"
+      },
+      "orderLines": [
+        {
+          "product": {
+            "id": 1,
+            "name": "Product 1",
+            "price": 100
+          },
+          "count": 1,
+          "price": 100
         },
         {
           "product": {
@@ -872,13 +189,238 @@
             "name": "Product 2",
             "price": 50
           },
-          "count": 3,
+          "count": 2,
           "price": 50
         }
       ],
-      "creationDate": "2023-10-11T00:00:00",
-      "lastEditDate": "2023-10-11T00:00:00",
+      "creationDate": "2023-10-13T00:00:00",
+      "lastEditDate": "2023-10-13T00:00:00",
+      "status": "Created"
+    },
+    {
+      "customer": {
+        "id": 1,
+        "name": "John",
+        "lastName": "Doe",
+        "address": "123 Main St"
+      },
+      "orderLines": [
+        {
+          "product": {
+            "id": 3,
+            "name": "Product 3",
+            "price": 150
+          },
+          "count": 3,
+          "price": 150
+        }
+      ],
+      "creationDate": "2023-10-06T00:00:00",
+      "lastEditDate": "2023-10-06T00:00:00",
+      "status": "Created"
+    },
+    {
+      "customer": {
+        "id": 1,
+        "name": "John",
+        "lastName": "Doe",
+        "address": "123 Main St"
+      },
+      "orderLines": [
+        {
+          "product": {
+            "id": 3,
+            "name": "Product 3",
+            "price": 150
+          },
+          "count": 3,
+          "price": 150
+        },
+        {
+          "product": {
+            "id": 1,
+            "name": "Product 1",
+            "price": 100
+          },
+          "count": 2,
+          "price": 100
+        }
+      ],
+      "creationDate": "2023-10-10T00:00:00",
+      "lastEditDate": "2023-10-12T00:00:00",
       "status": "Cancelled"
+    },
+    {
+      "customer": {
+        "id": 3,
+        "name": "Alice",
+        "lastName": "Johnson",
+        "address": "789 Pine St"
+      },
+      "orderLines": [
+        {
+          "product": {
+            "id": 1,
+            "name": "Product 1",
+            "price": 100
+          },
+          "count": 2,
+          "price": 100
+        }
+      ],
+      "creationDate": "2023-10-03T00:00:00",
+      "lastEditDate": "2023-10-04T00:00:00",
+      "status": "Completed"
+    },
+    {
+      "customer": {
+        "id": 3,
+        "name": "Alice",
+        "lastName": "Johnson",
+        "address": "789 Pine St"
+      },
+      "orderLines": [
+        {
+          "product": {
+            "id": 4,
+            "name": "Product 4",
+            "price": 200
+          },
+          "count": 1,
+          "price": 200
+        },
+        {
+          "product": {
+            "id": 3,
+            "name": "Product 3",
+            "price": 150
+          },
+          "count": 2,
+          "price": 150
+        }
+      ],
+      "creationDate": "2023-10-06T00:00:00",
+      "lastEditDate": "2023-10-08T00:00:00",
+      "status": "InProgress"
+    },
+    {
+      "customer": {
+        "id": 2,
+        "name": "Jane",
+        "lastName": "Smith",
+        "address": "456 Oak St"
+      },
+      "orderLines": [
+        {
+          "product": {
+            "id": 5,
+            "name": "Product 5",
+            "price": 250
+          },
+          "count": 3,
+          "price": 250
+        }
+      ],
+      "creationDate": "2023-10-01T00:00:00",
+      "lastEditDate": "2023-10-03T00:00:00",
+      "status": "InProgress"
+    },
+    {
+      "customer": {
+        "id": 3,
+        "name": "Alice",
+        "lastName": "Johnson",
+        "address": "789 Pine St"
+      },
+      "orderLines": [
+        {
+          "product": {
+            "id": 3,
+            "name": "Product 3",
+            "price": 150
+          },
+          "count": 2,
+          "price": 150
+        }
+      ],
+      "creationDate": "2023-10-08T00:00:00",
+      "lastEditDate": "2023-10-09T00:00:00",
+      "status": "Completed"
+    },
+    {
+      "customer": {
+        "id": 3,
+        "name": "Alice",
+        "lastName": "Johnson",
+        "address": "789 Pine St"
+      },
+      "orderLines": [
+        {
+          "product": {
+            "id": 3,
+            "name": "Product 3",
+            "price": 150
+          },
+          "count": 1,
+          "price": 150
+        },
+        {
+          "product": {
+            "id": 1,
+            "name": "Product 1",
+            "price": 100
+          },
+          "count": 1,
+          "price": 100
+        }
+      ],
+      "creationDate": "2023-10-07T00:00:00",
+      "lastEditDate": "2023-10-07T00:00:00",
+      "status": "Completed"
+    },
+    {
+      "customer": {
+        "id": 1,
+        "name": "John",
+        "lastName": "Doe",
+        "address": "123 Main St"
+      },
+      "orderLines": [
+        {
+          "product": {
+            "id": 4,
+            "name": "Product 4",
+            "price": 200
+          },
+          "count": 2,
+          "price": 200
+        }
+      ],
+      "creationDate": "2023-10-03T00:00:00",
+      "lastEditDate": "2023-10-04T00:00:00",
+      "status": "Completed"
+    },
+    {
+      "customer": {
+        "id": 1,
+        "name": "John",
+        "lastName": "Doe",
+        "address": "123 Main St"
+      },
+      "orderLines": [
+        {
+          "product": {
+            "id": 5,
+            "name": "Product 5",
+            "price": 250
+          },
+          "count": 3,
+          "price": 250
+        }
+      ],
+      "creationDate": "2023-10-13T00:00:00",
+      "lastEditDate": "2023-10-15T00:00:00",
+      "status": "InProgress"
     }
   ]
 }
