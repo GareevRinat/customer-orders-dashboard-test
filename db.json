@@ -1,429 +1,269 @@
 {
-  "customers": [
-    {
-      "id": 1,
-      "name": "John",
-      "lastName": "Doe",
-      "address": "123 Main St",
-      "photoUrl": "/avatar?u=1"
-    },
-    {
-      "id": 2,
-      "name": "Jane",
-      "lastName": "Smith",
-      "address": "456 Oak St",
-      "photoUrl": "/avatar?u=2"
-    },
-    {
-      "id": 3,
-      "name": "Alice",
-      "lastName": "Johnson",
-      "address": "789 Pine St",
-      "photoUrl": "/avatar?u=3"
-    }
-  ],
-  "orders": [
-    {
-      "customer": {
-        "id": 3,
-        "name": "Alice",
-        "lastName": "Johnson",
-        "address": "789 Pine St"
-      },
-      "orderLines": [
+    "customers": [
         {
-          "product": {
-            "id": 3,
-            "name": "Product 3",
-            "price": 150
-          },
-          "count": 2,
-          "price": 150
-        },
-        {
-          "product": {
             "id": 1,
-            "name": "Product 1",
-            "price": 100
-          },
-          "count": 3,
-          "price": 100
-        }
-      ],
-      "creationDate": "2023-10-14T00:00:00",
-      "lastEditDate": "2023-10-15T00:00:00",
-      "status": "InProgress"
-    },
-    {
-      "customer": {
-        "id": 3,
-        "name": "Alice",
-        "lastName": "Johnson",
-        "address": "789 Pine St"
-      },
-      "orderLines": [
-        {
-          "product": {
-            "id": 3,
-            "name": "Product 3",
-            "price": 150
-          },
-          "count": 1,
-          "price": 150
+            "name": "John",
+            "lastName": "Doe",
+            "address": "123 Main St",
+            "photoUrl": "/avatar?u=1"
         },
         {
-          "product": {
-            "id": 3,
-            "name": "Product 3",
-            "price": 150
-          },
-          "count": 3,
-          "price": 150
-        }
-      ],
-      "creationDate": "2023-10-09T00:00:00",
-      "lastEditDate": "2023-10-10T00:00:00",
-      "status": "Completed"
-    },
-    {
-      "customer": {
-        "id": 1,
-        "name": "John",
-        "lastName": "Doe",
-        "address": "123 Main St"
-      },
-      "orderLines": [
-        {
-          "product": {
-            "id": 1,
-            "name": "Product 1",
-            "price": 100
-          },
-          "count": 3,
-          "price": 100
-        },
-        {
-          "product": {
             "id": 2,
-            "name": "Product 2",
-            "price": 50
-          },
-          "count": 3,
-          "price": 50
-        }
-      ],
-      "creationDate": "2023-10-08T00:00:00",
-      "lastEditDate": "2023-10-09T00:00:00",
-      "status": "InProgress"
-    },
-    {
-      "customer": {
-        "id": 1,
-        "name": "John",
-        "lastName": "Doe",
-        "address": "123 Main St"
-      },
-      "orderLines": [
-        {
-          "product": {
-            "id": 1,
-            "name": "Product 1",
-            "price": 100
-          },
-          "count": 2,
-          "price": 100
+            "name": "Jane",
+            "lastName": "Smith",
+            "address": "456 Oak St",
+            "photoUrl": "/avatar?u=2"
         },
         {
-          "product": {
-            "id": 5,
-            "name": "Product 5",
-            "price": 250
-          },
-          "count": 3,
-          "price": 250
+            "id": 3,
+            "name": "Alice",
+            "lastName": "Johnson",
+            "address": "789 Pine St",
+            "photoUrl": "/avatar?u=3"
         }
-      ],
-      "creationDate": "2023-10-06T00:00:00",
-      "lastEditDate": "2023-10-07T00:00:00",
-      "status": "Cancelled"
-    },
-    {
-      "customer": {
-        "id": 3,
-        "name": "Alice",
-        "lastName": "Johnson",
-        "address": "789 Pine St"
-      },
-      "orderLines": [
+    ],
+    "orders": [
         {
-          "product": {
-            "id": 5,
-            "name": "Product 5",
-            "price": 250
-          },
-          "count": 1,
-          "price": 250
-        }
-      ],
-      "creationDate": "2023-10-08T00:00:00",
-      "lastEditDate": "2023-10-10T00:00:00",
-      "status": "Created"
-    },
-    {
-      "customer": {
-        "id": 1,
-        "name": "John",
-        "lastName": "Doe",
-        "address": "123 Main St"
-      },
-      "orderLines": [
-        {
-          "product": {
-            "id": 1,
-            "name": "Product 1",
-            "price": 100
-          },
-          "count": 1,
-          "price": 100
+            "customerId": 1,
+            "orderLines": [
+                {
+                    "productId": 6,
+                    "count": 1,
+                    "price": 393.05
+                },
+                {
+                    "productId": 9,
+                    "count": 3,
+                    "price": 275.03
+                },
+                {
+                    "productId": 5,
+                    "count": 2,
+                    "price": 328.94
+                }
+            ],
+            "creationDate": "2023-05-02T00:00:00",
+            "lastEditDate": "2023-05-04T00:00:00",
+            "status": "Completed"
         },
         {
-          "product": {
+            "customerId": 2,
+            "orderLines": [
+                {
+                    "productId": 6,
+                    "count": 2,
+                    "price": 268.09
+                },
+                {
+                    "productId": 1,
+                    "count": 4,
+                    "price": 349.86
+                },
+                {
+                    "productId": 10,
+                    "count": 1,
+                    "price": 596.65
+                }
+            ],
+            "creationDate": "2023-10-24T00:00:00",
+            "lastEditDate": "2023-10-26T00:00:00",
+            "status": "InProgress"
+        },
+        {
+            "customerId": 2,
+            "orderLines": [
+                {
+                    "productId": 2,
+                    "count": 4,
+                    "price": 291.71
+                },
+                {
+                    "productId": 4,
+                    "count": 3,
+                    "price": 993.18
+                },
+                {
+                    "productId": 8,
+                    "count": 5,
+                    "price": 851.0
+                }
+            ],
+            "creationDate": "2023-08-28T00:00:00",
+            "lastEditDate": "2023-08-30T00:00:00",
+            "status": "Created"
+        },
+        {
+            "customerId": 2,
+            "orderLines": [
+                {
+                    "productId": 4,
+                    "count": 5,
+                    "price": 69.96
+                },
+                {
+                    "productId": 7,
+                    "count": 4,
+                    "price": 74.39
+                }
+            ],
+            "creationDate": "2023-07-16T00:00:00",
+            "lastEditDate": "2023-07-21T00:00:00",
+            "status": "Completed"
+        },
+        {
+            "customerId": 2,
+            "orderLines": [
+                {
+                    "productId": 5,
+                    "count": 4,
+                    "price": 505.42
+                },
+                {
+                    "productId": 5,
+                    "count": 4,
+                    "price": 747.86
+                }
+            ],
+            "creationDate": "2023-07-24T00:00:00",
+            "lastEditDate": "2023-07-26T00:00:00",
+            "status": "Completed"
+        },
+        {
+            "customerId": 3,
+            "orderLines": [
+                {
+                    "productId": 4,
+                    "count": 3,
+                    "price": 77.65
+                }
+            ],
+            "creationDate": "2023-08-04T00:00:00",
+            "lastEditDate": "2023-08-06T00:00:00",
+            "status": "InProgress"
+        },
+        {
+            "customerId": 3,
+            "orderLines": [
+                {
+                    "productId": 5,
+                    "count": 1,
+                    "price": 245.98
+                },
+                {
+                    "productId": 2,
+                    "count": 1,
+                    "price": 422.28
+                },
+                {
+                    "productId": 1,
+                    "count": 4,
+                    "price": 417.51
+                }
+            ],
+            "creationDate": "2023-06-24T00:00:00",
+            "lastEditDate": "2023-06-29T00:00:00",
+            "status": "InProgress"
+        },
+        {
+            "customerId": 3,
+            "orderLines": [
+                {
+                    "productId": 3,
+                    "count": 3,
+                    "price": 472.17
+                },
+                {
+                    "productId": 1,
+                    "count": 1,
+                    "price": 744.7
+                },
+                {
+                    "productId": 1,
+                    "count": 2,
+                    "price": 617.0
+                }
+            ],
+            "creationDate": "2023-01-14T00:00:00",
+            "lastEditDate": "2023-01-19T00:00:00",
+            "status": "Created"
+        },
+        {
+            "customerId": 3,
+            "orderLines": [
+                {
+                    "productId": 1,
+                    "count": 3,
+                    "price": 637.33
+                }
+            ],
+            "creationDate": "2023-02-13T00:00:00",
+            "lastEditDate": "2023-02-17T00:00:00",
+            "status": "Cancelled"
+        },
+        {
+            "customerId": 3,
+            "orderLines": [
+                {
+                    "productId": 6,
+                    "count": 5,
+                    "price": 228.78
+                }
+            ],
+            "creationDate": "2023-05-05T00:00:00",
+            "lastEditDate": "2023-05-08T00:00:00",
+            "status": "Completed"
+        }
+    ],
+    "products": [
+        {
+            "id": 1,
+            "name": "Laptop",
+            "price": 441.73
+        },
+        {
             "id": 2,
-            "name": "Product 2",
-            "price": 50
-          },
-          "count": 2,
-          "price": 50
-        }
-      ],
-      "creationDate": "2023-10-13T00:00:00",
-      "lastEditDate": "2023-10-13T00:00:00",
-      "status": "Created"
-    },
-    {
-      "customer": {
-        "id": 1,
-        "name": "John",
-        "lastName": "Doe",
-        "address": "123 Main St"
-      },
-      "orderLines": [
-        {
-          "product": {
-            "id": 3,
-            "name": "Product 3",
-            "price": 150
-          },
-          "count": 3,
-          "price": 150
-        }
-      ],
-      "creationDate": "2023-10-06T00:00:00",
-      "lastEditDate": "2023-10-06T00:00:00",
-      "status": "Created"
-    },
-    {
-      "customer": {
-        "id": 1,
-        "name": "John",
-        "lastName": "Doe",
-        "address": "123 Main St"
-      },
-      "orderLines": [
-        {
-          "product": {
-            "id": 3,
-            "name": "Product 3",
-            "price": 150
-          },
-          "count": 3,
-          "price": 150
+            "name": "Smartphone",
+            "price": 254.31
         },
         {
-          "product": {
-            "id": 1,
-            "name": "Product 1",
-            "price": 100
-          },
-          "count": 2,
-          "price": 100
-        }
-      ],
-      "creationDate": "2023-10-10T00:00:00",
-      "lastEditDate": "2023-10-12T00:00:00",
-      "status": "Cancelled"
-    },
-    {
-      "customer": {
-        "id": 3,
-        "name": "Alice",
-        "lastName": "Johnson",
-        "address": "789 Pine St"
-      },
-      "orderLines": [
+            "id": 3,
+            "name": "Tablet",
+            "price": 243.62
+        },
         {
-          "product": {
-            "id": 1,
-            "name": "Product 1",
-            "price": 100
-          },
-          "count": 2,
-          "price": 100
-        }
-      ],
-      "creationDate": "2023-10-03T00:00:00",
-      "lastEditDate": "2023-10-04T00:00:00",
-      "status": "Completed"
-    },
-    {
-      "customer": {
-        "id": 3,
-        "name": "Alice",
-        "lastName": "Johnson",
-        "address": "789 Pine St"
-      },
-      "orderLines": [
-        {
-          "product": {
             "id": 4,
-            "name": "Product 4",
-            "price": 200
-          },
-          "count": 1,
-          "price": 200
+            "name": "Headphones",
+            "price": 345.25
         },
         {
-          "product": {
-            "id": 3,
-            "name": "Product 3",
-            "price": 150
-          },
-          "count": 2,
-          "price": 150
-        }
-      ],
-      "creationDate": "2023-10-06T00:00:00",
-      "lastEditDate": "2023-10-08T00:00:00",
-      "status": "InProgress"
-    },
-    {
-      "customer": {
-        "id": 2,
-        "name": "Jane",
-        "lastName": "Smith",
-        "address": "456 Oak St"
-      },
-      "orderLines": [
-        {
-          "product": {
             "id": 5,
-            "name": "Product 5",
-            "price": 250
-          },
-          "count": 3,
-          "price": 250
-        }
-      ],
-      "creationDate": "2023-10-01T00:00:00",
-      "lastEditDate": "2023-10-03T00:00:00",
-      "status": "InProgress"
-    },
-    {
-      "customer": {
-        "id": 3,
-        "name": "Alice",
-        "lastName": "Johnson",
-        "address": "789 Pine St"
-      },
-      "orderLines": [
-        {
-          "product": {
-            "id": 3,
-            "name": "Product 3",
-            "price": 150
-          },
-          "count": 2,
-          "price": 150
-        }
-      ],
-      "creationDate": "2023-10-08T00:00:00",
-      "lastEditDate": "2023-10-09T00:00:00",
-      "status": "Completed"
-    },
-    {
-      "customer": {
-        "id": 3,
-        "name": "Alice",
-        "lastName": "Johnson",
-        "address": "789 Pine St"
-      },
-      "orderLines": [
-        {
-          "product": {
-            "id": 3,
-            "name": "Product 3",
-            "price": 150
-          },
-          "count": 1,
-          "price": 150
+            "name": "Smartwatch",
+            "price": 115.25
         },
         {
-          "product": {
-            "id": 1,
-            "name": "Product 1",
-            "price": 100
-          },
-          "count": 1,
-          "price": 100
-        }
-      ],
-      "creationDate": "2023-10-07T00:00:00",
-      "lastEditDate": "2023-10-07T00:00:00",
-      "status": "Completed"
-    },
-    {
-      "customer": {
-        "id": 1,
-        "name": "John",
-        "lastName": "Doe",
-        "address": "123 Main St"
-      },
-      "orderLines": [
+            "id": 6,
+            "name": "Camera",
+            "price": 89.91
+        },
         {
-          "product": {
-            "id": 4,
-            "name": "Product 4",
-            "price": 200
-          },
-          "count": 2,
-          "price": 200
-        }
-      ],
-      "creationDate": "2023-10-03T00:00:00",
-      "lastEditDate": "2023-10-04T00:00:00",
-      "status": "Completed"
-    },
-    {
-      "customer": {
-        "id": 1,
-        "name": "John",
-        "lastName": "Doe",
-        "address": "123 Main St"
-      },
-      "orderLines": [
+            "id": 7,
+            "name": "Printer",
+            "price": 285.39
+        },
         {
-          "product": {
-            "id": 5,
-            "name": "Product 5",
-            "price": 250
-          },
-          "count": 3,
-          "price": 250
+            "id": 8,
+            "name": "Monitor",
+            "price": 832.41
+        },
+        {
+            "id": 9,
+            "name": "Keyboard",
+            "price": 976.17
+        },
+        {
+            "id": 10,
+            "name": "Mouse",
+            "price": 935.71
         }
-      ],
-      "creationDate": "2023-10-13T00:00:00",
-      "lastEditDate": "2023-10-15T00:00:00",
-      "status": "InProgress"
-    }
-  ]
+    ]
 }
