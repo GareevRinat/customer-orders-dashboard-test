@@ -1,0 +1,20 @@
+{
+  "/avatar": {
+    "target": "https://i.pravatar.cc/200",
+    "secure": false,
+    "changeOrigin": true,
+    "logLevel": "debug",
+    "pathRewrite": {
+      "^/avatar": ""
+    }
+  },
+  "/api": {
+    "target": "https://my-json-server.typicode.com/GareevRinat/customer-orders-dashboard-test",
+    "secure": false,
+    "changeOrigin": true,
+    "logLevel": "debug",
+    "pathRewrite": {
+      "^/api": ""
+    }
+  }
+}

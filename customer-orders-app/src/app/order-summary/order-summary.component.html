@@ -1,0 +1,16 @@
+<mat-spinner *ngIf="isLoading"></mat-spinner>
+
+<mat-card *ngIf="!isLoading && totalOrders > 0">
+  <mat-card-title>Order Summary for Customer</mat-card-title>
+    <mat-card-content>
+      <p><strong>Total Orders:</strong> {{ totalOrders }}</p>
+      <p><strong>Total Amount:</strong> ${{ totalSum | number: '1.2-2' }}</p>
+      <p><strong>Most Ordered Product:</strong> {{ mostOrderedProduct }}</p>
+    </mat-card-content>
+</mat-card>
+
+<mat-card *ngIf="!isLoading && totalOrders === 0">
+  <mat-card-content>
+    <p>No orders found for this customer.</p>
+  </mat-card-content>
+</mat-card>
